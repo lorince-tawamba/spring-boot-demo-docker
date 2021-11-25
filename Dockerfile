@@ -5,7 +5,7 @@ FROM openjdk:8-jdk-alpine
 #FROM adoptopenjdk/openjdk11:alpine-jre
 
 # Add maintainer info
-LABEL maintainer="TAWAMBA KOUAKAM Lorince <lorince.tawamba@ucac-icam>"
+LABEL maintainer="TAWAMBA KOUAKAM Lorince <lorince.tawamba@ucac-icam.com>"
 
 # Refer to Maven build -> finalName
 ARG JAR_FILE=target/*.jar
