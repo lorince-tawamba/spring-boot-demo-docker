@@ -1,5 +1,5 @@
 
-# Simple Spring Boot Docker
+# Simple Spring Boot Docker Application
 
 The simple Spring Boot application using Docker
 
