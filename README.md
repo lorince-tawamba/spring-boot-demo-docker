@@ -39,7 +39,7 @@ Youâ€™ll have to do this for both application. After this command executes, youâ
 **Start the docker container**
 
 ```bash
-  docker run -d -p 8080:8080 -t simple-spring-boot-demo-docker:1.0.1
+  docker run -d -p 8080:8585 -t simple-spring-boot-demo-docker:1.0.1
 ```
 
 ## API Reference
@@ -47,13 +47,13 @@ Youâ€™ll have to do this for both application. After this command executes, youâ
 #### Get information
 
 ```http
-  GET /api/info
+  GET /api/v1/appli/info
 ```
 
 #### Get current version 
 
 ```http
-  GET /api/version
+  GET /api/v1/appli/version
 ```
 
 ## Authors
