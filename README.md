@@ -17,6 +17,31 @@ The simple Spring Boot application using Docker
 - **Dernière version :** 1.0.1
 The list of versions : [Click to display](https://github.com/lorince-tawamba/spring-boot-demo-docker/tags)
 
+## Deployment
+
+**Create the Packages (Jar files)**
+
+```bash
+  mvn clean install
+```
+
+You’ll have to do this for both application. After this command executes, you’ll see the jar file available in the target folder. The file names will be:
+
+- simple-spring-boot-demo-docker-1.0.1
+- simple-spring-boot-demo-docker-1.0.1
+
+**Create the docker image**
+
+```bash
+  docker build -t simple-spring-boot-demo-docker:1.0.1 .
+```
+
+**Start the docker container**
+
+```bash
+  docker run -d -p 8080:8080 -t simple-spring-boot-demo-docker:1.0.1
+```
+
 ## API Reference
 
 #### Get information
