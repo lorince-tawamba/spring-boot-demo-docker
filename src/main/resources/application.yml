@@ -4,8 +4,5 @@ server:
 spring:
   application:
     name: simple-spring-boot-demo-docker
-  data:
-    rest:
-      base-path: /api/v1
   profiles:
     active: dev

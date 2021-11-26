@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RestController;
  * @since 25.11.2021
  */
 @RestController
-@RequestMapping(path = "/appli")
-public class Controller {
+@RequestMapping(path = "/api/v1/appli")
+public class ControllerSystem {
 
     @GetMapping(path = "/info")
     public String info() {
