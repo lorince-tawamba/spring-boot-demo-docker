@@ -17,7 +17,7 @@ WORKDIR /opt/app
 VOLUME /tmp
 
 # Expose some tcp/udp ports
-EXPOSE 8080
+EXPOSE 8585
 
 # Copy target/*.jar to /opt/app/app.jar
 COPY ${JAR_FILE} app.jar

@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @since 25.11.2021
  */
 @RestController
-@RequestMapping(path = "/api")
+@RequestMapping(path = "/appli")
 public class Controller {
 
     @GetMapping(path = "/info")
