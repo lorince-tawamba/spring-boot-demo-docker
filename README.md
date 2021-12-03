@@ -1,7 +1,10 @@
-
 # Simple Spring Boot Docker Application
 
-The simple Spring Boot application using Docker
+The simple Spring Boot application using Docker 
+
+## Status
+
+[![build](https://github.com/geekymon2/carmarketplace-car-info-svc/actions/workflows/build.yml/badge.svg)](https://github.com/geekymon2/carmarketplace-car-info-svc/actions/workflows/build.yml) &nbsp;&nbsp; [![codecov](https://codecov.io/gh/geekymon2/carmarketplace-car-info-svc/branch/main/graph/badge.svg?token=LH7ATDIHTB)](https://codecov.io/gh/geekymon2/carmarketplace-car-info-svc) &nbsp;&nbsp; ![Docker Image Version (latest by date)](https://img.shields.io/docker/v/geekymon2/cm-car-info-svc) &nbsp;&nbsp; ![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/geekymon2/cm-car-info-svc)
 
 
 ## Made with
@@ -15,7 +18,11 @@ The simple Spring Boot application using Docker
 
 - **Dernière version stable :** 1.0.0
 - **Dernière version :** 1.0.1
-The list of versions : [Click to display](https://github.com/lorince-tawamba/spring-boot-demo-docker/tags)
+The list of versions : [Click to display](https://github.com/lorince-tawamba/spring-boot-demo-docker/tags) 
+
+## About this Service
+
+**Spring boot demo application using docker**
 
 ## Deployment
 
@@ -60,7 +67,11 @@ You’ll have to do this for both application. After this command executes, you�
 
 * **Lorince TAWAMBA** _alias_ [@lorince-tawamba](https://github.com/lorince-tawamba)
 
-Read the list of [contributors](https://github.com/lorince-tawamba/spring-boot-demo-docker/contributors) to see who helped with the project !
+Read the list of [contributors](https://github.com/lorince-tawamba/spring-boot-demo-docker/contributors) to see who helped with the project ! 
+
+## Documentation
+
+For more details refer to the swagger documentation.
 
 ## License
 
